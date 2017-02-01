@@ -14,7 +14,7 @@ gem 'sass-rails',              '5.0.6'
 gem 'uglifier',                '3.0.0'
 gem 'coffee-rails',            '4.2.1'
 gem 'jquery-rails',            '4.1.1'
-gem 'turbolinks',              '5.0.1'
+gem 'turbolinks',              '5.0.0'
 gem 'jbuilder',                '2.4.1'
 
 group :development, :test do
@@ -41,4 +41,4 @@ group :production do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]:gui
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
